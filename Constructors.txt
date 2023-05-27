@@ -1,0 +1,96 @@
+In Java, a constructor is a block of code similar to the method. 
+The Name of the constructor should be the same as that of the class Name 
+By default atleast one constructor will be there in a class
+If we dont write or have an explicit constructor, The compiler would create one 
+A consructor will not have any return type or will it have Static, Abstract or Syncronize Keywords
+--------
+A constructor can be parameterized
+A constructor can be Overloading
+
+Class A{
+   A()
+	{
+	}
+
+   A(int a,int b){
+             int c =a+b;
+	S.o.p(c);
+          }
+
+       A(int a,int b,int c){
+             int d =a*b*c;
+	S.o.p(d);
+          }
+      
+        A(String s,int b){
+             int d =a+b;
+	S.o.p(d);
+          }
+
+       A obj = new A();
+       A obj = new A(2,3);
+       A obj = new A("sss",3);
+      A obj = new A(2,3,4);
+
+
+public Add(a,b)
+{
+hjgjgjghj
+jhgjgjghj
+khhkhjkh
+bmbmbn
+}
+
+Add(6,7);
+}
+It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the system memory.
+
+It is a special type of method which is used to initialize the object.
+
+Every time an object is created using the new() keyword, at least one constructor is called.
+
+Note that the constructor name must match the class name, and it cannot have a return type (like void).
+
+Also note that the constructor is called when the object is created.
+
+It is called constructor because it constructs the values at the time of object creation. It is not necessary to write a constructor for a class. It is because java compiler creates a default constructor if your class doesn't have any.
+
+Constructor name must be the same as its class name
+A Constructor must have no explicit return type
+A Java constructor cannot be abstract, static, final, or synchronized
+
+3 types - 
+No-Arg Constructor - a constructor which doesnt have arguments
+Default Constructor - a constructor that is automatically created by the Java compiler if it is not explicitly defined.
+Parameterized constructor - a constructor that accepts arguments
+
+A copy constructor is used for copying the values of one object to another object.
+
+
+class Test {
+    Test() {
+        // constructor body
+    }
+}
+
+
+class Test {
+    void Test() {
+        // method body
+    }
+}
+
+
+
+Every class has a constructor whether it’s a normal class or an abstract class.
+Constructor can use any access specifier, they can be declared as private also. Private constructors are possible in java but there scope is within the class only.
+Like constructors method can also have name same as class name, but still they have return type, though which we can identify them that they are methods not constructors.
+If you don’t implement any constructor within the class, compiler will do it for.
+
+
+
+Constructor overloading is possible but overriding is not possible. Which means we can have overloaded constructor in our class but we can’t override a constructor.
+Constructors can not be inherited.
+If Super class doesn’t have a no-arg(default) constructor then compiler would not insert a default constructor in child class as it does in normal scenario.
+Interfaces do not have constructors.
+Abstract class can have constructor and it gets invoked when a class.

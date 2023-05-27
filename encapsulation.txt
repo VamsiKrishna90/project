@@ -1,0 +1,155 @@
+OOps Design principle- 
+ - Inheritance
+ - encapsulation
+ - Abstarction 
+ -- Polyorphism
+
+
+Good Software
+  ----Performance
+  ----Scalability
+  ---- Maitainability
+  ----Economic
+  -----Secure
+
+Encapsulation - Data Binding & hiding  - Binding Data members into methods
+int accountNum;
+private int policyNumber;
+
+int accountNum = result ;
+
+
+accountNum = 30 ;
+
+
+
+  ------ Secure 
+  ------ Track 
+###########
+---getters & Setters
+acct#
+AtmPin
+
+SSN / Aadhar Number 
+
+class batch{
+
+
+	public static void main(String args[]){
+		newbatch mybatch= new newbatch();
+		
+		myBatch.setBatchName("one")
+		sop(myBatch.getBatchName);
+	}
+
+}
+
+class newbatch{
+      //	string BatchName ="Gamma"; 
+	
+	private string BatchName ;              
+             
+	public setBatchName(String Bname)
+            {
+		BatchName  = Bname;
+		
+	}
+            
+	public getBatchName(){
+		return BatchName ;
+	}
+      }    
+
+     }
+
+
+
+
+
+
+
+getters/setters
+----------------------------------------------
+Class A {
+
+private int atmpin;
+private int b ;
+  
+	public seta(int num1)
+	{
+	  a = num1;	
+	}
+
+
+	public geta()
+	{
+
+       	 return a;	
+	}
+	addition(int a , int b ) 
+	   {
+		int c = a +b;
+		System.out.println(c);
+	   }
+      }
+
+public class b{
+
+	public static void main(String args[])
+	{
+		A obj = new A ();
+		obj.seta(10) ;
+                 	sysout(obj.geta())
+	}
+
+
+
+}
+
+getbalance();
+
+
+Getter and Setter
+
+  Class oniineApp{
+
+	
+	private int balance = 5435435;
+	
+	public getbalance(){
+
+		oniineApp myObj = new oniineApp();
+	  	return myObj.balance ;
+	}
+
+
+	int balanceCheck(){
+  		return balance
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
